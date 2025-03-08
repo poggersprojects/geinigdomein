@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Home page of geinigdomein.nl">
+        <meta name="author" content="Teun Redelijkheid">
+        <meta name="keywords" content="Teun, Redelijkheid, IT, Cybersecurity, ICT, Programmer, Programming, Developer">
+        <title> geinigdomein.nl | Home </title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <div class="menu-toggle" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <script defer>
+            function toggleNav() {
+                const sidebar = document.querySelector(".sidebar");
+                const menuToggle = document.querySelector(".menu-toggle");
+                
+                sidebar.classList.toggle("active");
+                menuToggle.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>
