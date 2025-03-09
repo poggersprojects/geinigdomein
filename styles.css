@@ -28,6 +28,10 @@ p {
     color: rgb(235, 235, 235);
 }
 
+a {
+    color: #00ff00;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
