@@ -89,6 +89,32 @@ body {
     transform: translateY(-10px) rotate(-45deg);
 }
 
+h1 {
+    color: #00ff00;
+}
+
+.intro {
+    background: #1a1a1a;
+    color: #dddddd;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.intro-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-aspect-ratio: 9/16) {
     .sidebar {
         width: 100vw;
