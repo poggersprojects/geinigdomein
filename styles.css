@@ -89,13 +89,20 @@ body {
     transform: translateY(-10px) rotate(-45deg);
 }
 
-@media (max-width: 768px) {
+@media (max-aspect-ratio: 9/16) {
     .sidebar {
-        width: 100%;
-        left: -100%;
+        width: 100vw;
+        height: 100vh;
+        left: -100vw;
     }
     
     .sidebar.active {
         left: 0;
+    }
+    
+    .menu-toggle {
+        left: 20px;
+        top: 20px;
+        z-index: 1001;
     }
 }
